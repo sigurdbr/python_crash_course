@@ -20,3 +20,5 @@ favorite_numbers = {"sigurd": 6,
 
 for key, value in favorite_numbers.items():
     print(f"{key.title()}s favorite number is {value}")
+
+print("hello")
