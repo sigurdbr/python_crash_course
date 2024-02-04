@@ -21,3 +21,13 @@ favorite_numbers = {"sigurd": 6,
 for key, value in favorite_numbers.items():
     print(f"{key.title()}s favorite number is {value}")
 
+glossary = {"value": "some kind of data",
+            "variable": "can hold data",
+            "list": "stores data in an indexed order",
+            "tuple": "same as list, but can't be changed",
+            "int": "the type of a number",
+            }
+
+for key, value in glossary.items():
+    print(f"{key.title()} means '{value}'.")
+
