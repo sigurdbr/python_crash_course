@@ -20,3 +20,16 @@ favorite_numbers = {"sigurd": 6,
 
 for key, value in favorite_numbers.items():
     print(f"{key.title()}s favorite number is {value}")
+
+#6-3
+
+glossary = {
+    "dictionary": "A place to store key-value pairs",
+    "list": "A place to store values",
+    "value": "something that contains information",
+    "if-else": "something that evalutes the value provided",
+    "for-loop": "a function used to iterate a list for example",
+}
+
+for key, value in glossary.items():
+    print(f"The meaning of {key.title()} is: '{value}'")
